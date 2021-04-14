@@ -1,0 +1,60 @@
+@import 'stylus/colors'
+// @import 'nib'
+
+// reset-html5()
+
+* {
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+}
+
+body
+  background: bg-white
+
+header
+  padding: 1.2rem
+  p
+    width: 90%
+    margin: 0 auto
+    color: gray-1
+    letter-spacing: -0.08em
+    text-transform: uppercase
+    font: bold 1.25rem/25px 'Insonsolata', monospace
+
+main
+  width: 100% 
+  height: 90vh
+  display: flex
+  justify-content: space-around
+  align-items: center
+  .error-img img
+    height: 447px
+  .error
+    height: 100%
+    display: flex
+    justify-content: center
+    flex-direction: column
+    h1 
+      color: gray-1
+      font: bold 3.5rem/94px 'Space Mono', monospace
+      max-width: 580px  
+      letter-spacing: -0.035em
+    p
+      color: gray-2
+      font: 1.24rem/36px 'Space Mono', monospace
+      letter-spacing: -0.035em
+      max-width: 380px
+      margin: 26px 0 36px
+    a
+      background: gray-1
+      padding: 1rem 2rem
+      width: 200px
+      display: flex
+      align-items: center
+      justify-content: center
+      color: white
+      text-decoration: none
+      letter-spacing: -0.035em
+      text-transform: uppercase
+      font: bold 0.9rem/21px 'Space Mono', monospace
