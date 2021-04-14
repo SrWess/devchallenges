@@ -4,4 +4,4 @@
 </div>
 
 ### 🎯 Resolvidos
-- [Página 404](https://github.com/SrWess/devchallenges/tree/challenge01/page-404-not-found)
+- [Página 404](https://github.com/SrWess/devchallenges/tree/main/page-404-not-found)
