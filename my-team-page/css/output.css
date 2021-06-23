@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fafafa;
+}
+
+header {
+  padding: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+header h1 {
+  font-family: "PT Serif", sans-serif;
+}
+header .info-team {
+  max-width: 380px;
+}
+header .info-team h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+header .info-team p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+main .group-team-one, main .group-team-two {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .group-team-one div, main .group-team-two div {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+main .group-team-one div span, main .group-team-two div span {
+  font-family: "PT Serif", sans-serif;
+  font-size: 14px;
+  align-self: flex-end;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 40px;
+  right: -60px;
+  width: 100px;
+}
+main .group-team-one div img, main .group-team-two div img {
+  width: 260px;
+}
+main .group-team-one div p, main .group-team-two div p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  align-self: flex-start;
+}
+main .group-team-one div:nth-child(2), main .group-team-two div:nth-child(2) {
+  margin-top: 60px;
+}
+main .group-team-two {
+  margin-top: 60px;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 20px 0px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: #A9A9A9;
+}
+
+/*# sourceMappingURL=output.css.map */

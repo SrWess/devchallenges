@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fafafa;
+}
+
+header {
+  padding: 70px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  h1 {
+    font-family: "PT Serif", sans-serif;
+  }
+
+  .info-team {
+    max-width: 380px;
+
+    h3 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 27px;
+    }
+  }
+}
+
+main {
+  .group-team-one {
+    display: flex;
+    justify-content: space-evenly;
+
+    div {
+      height: 400px;
+
+      display: flex;
+      flex-direction: column;
+
+      position: relative;
+
+      span {
+        font-family: "PT Serif", sans-serif;
+        font-size: 14px;
+        align-self: flex-end;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 40px;
+        right: -60px;
+        width: 100px;
+      }
+
+      img {
+        width: 260px;
+      }
+
+      p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        align-self: flex-start;
+      }
+    }
+
+    div:nth-child(2) {
+      margin-top: 60px;
+    }
+  }
+
+  .group-team-two {
+    // background: red;
+    margin-top: 60px;
+    @extend .group-team-one;
+  }
+}
+
+
+footer {
+  margin-top: 60px;
+  padding: 20px 0px;
+
+  text-align: center;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: #A9A9A9;
+}
